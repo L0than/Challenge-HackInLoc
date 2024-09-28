@@ -14,16 +14,16 @@
 #if __has_include("wificonfig.h")
 #include "wificonfig.h"
 #else
-const char* googleApiKey = "AIzaSyDSuFAX9wvU6okgBNIJI6-Sne7ButE9PKI";
-const char* ssid = "Redmi note 12";
-const char* passwd = "41826799";
+const char* googleApiKey = "Chave da API geolocation";
+const char* ssid = "Nome do wifi que irá se conectar";
+const char* passwd = "Senha do wifi que irá se conectar";
 #endif
 
 const char* id = "0002";
 bool carrinho = true;
 
 WifiLocation location (googleApiKey);
-const char* serverUrl = "https://b2c79522-5ead-4b05-bea7-0a39c4bf0243-00-2i4mf3m0gfhz2.worf.repl.co/api/location";  // Substitua pelo URL do seu site
+const char* serverUrl = "URL do site";  // Substitua pelo URL do seu site
 
 int buttonState = 0;
 
