@@ -6,7 +6,7 @@ Para solucionar o problema relacionado ao excesso de material nos carrinhos do k
 </p>
 
 <h2>Desenvolvimento</h2>
-<img src="assets/arquitetura.png">
+<img src="assets/Arquitetura.png">
 <p>
 O projeto foi feito utilizando a biblioteca chamada "WifiLocation" no esp32, em que consiste em scanear todos os roteadores na região e pegando informações como RSSI(Indicador de Força de Sinal Recebido), MacAddress e o canal, e assim enviando esses dados para a API geolocation que irá retornar a latitude e longitude do esp32, e depois esses dados são enviados para o site via protocolo http
 </p>
