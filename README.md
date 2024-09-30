@@ -14,5 +14,12 @@ Para solucionar o problema relacionado ao excesso de material nos carrinhos do k
 
 <h2>Resultados</h2>
 <p>
-  Como resultados 
+  O ESP32, utilizando a biblioteca WifiLocation, obtém com sucesso a latitude e longitude através da API de geolocation. A precisão dos resultados pode variar dependendo da densidade de roteadores Wi-Fi disponíveis na região, assim como da força do sinal. Ele consegue enviar as informações de roteadores (RSSI, MacAddress e canal) para a API via HTTP e, após obter a geolocalização, envia os dados de latitude e longitude para o site hospedado na nuvem (via protocolo HTTP). Devido à natureza de redes Wi-Fi, o ESP32 pode experimentar instabilidades ao tentar se conectar a redes em diferentes regiões. A flutuação no RSSI pode impactar a velocidade de resposta ou a precisão da localização.
 </p>
+<img src="assets/Esp32_funcionando.png">
+
+<p>
+  O site (feito no framework Next) reflete imediatamente as atualizações enviadas pelo ESP32. Toda vez que o ESP32 obtém novas coordenadas ou há mudanças na força do sinal, essas atualizações são exibidas em tempo real no dashboard do site.
+</p>
+
+<img src="assets/Site_funcionando.png">
