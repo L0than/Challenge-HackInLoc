@@ -26,6 +26,4 @@ Para solucionar o problema relacionado ao excesso de material nos carrinhos do k
 
 <h2>Demonstração do projeto</h2>
 
-<p>
-  O link a seguir é um vídeo sobre o projeto junto de uma demonstração dele: 
-</p>
+<p> O link a seguir é um vídeo sobre o projeto junto de uma demonstração dele:</p> <a href="https://www.youtube.com/watch?v=r1p44xEGkqE">https://www.youtube.com/watch?v=r1p44xEGkqE</a>
